@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HUDLearn_Example' do
+  pod 'HUDLearn', :path => '../'
+
+  target 'HUDLearn_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
