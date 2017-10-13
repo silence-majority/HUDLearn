@@ -8,6 +8,14 @@
 
 @import UIKit;
 
+@interface ImageCollectionViewCell : UICollectionViewCell
+
+@property (nonatomic,strong) UIImageView *imageView;
+
+@property (nonatomic,strong) UIActivityIndicatorView *activityIndicator;
+
+@end
+
 @interface HUDLearnViewController : UIViewController
 
 @end

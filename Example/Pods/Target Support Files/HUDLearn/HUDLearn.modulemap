@@ -1,0 +1,6 @@
+framework module HUDLearn {
+  umbrella header "HUDLearn-umbrella.h"
+
+  export *
+  module * { export * }
+}
